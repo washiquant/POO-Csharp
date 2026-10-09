@@ -16,9 +16,9 @@ namespace ConsoleApp1
             return a - b;
         }
 
-        public void somar(int valor)
+        public void MostrarResultado(int valor)
         {
-            return valor;
+            Console.WriteLine($"Resultado: {valor}");
         }
 
     }
